@@ -2,10 +2,11 @@ Summary:	OpenDivX - MPEG-4 implementation
 Summary(pl):	OpenDivX - implementacja dekodera MPEG-4
 Name:		libdivxdecore
 Version:	0.4.7
-Release:	1
-Copyright:	GPL
+Release:	2
+License:	GPL
 Group:		Libraries
 Group(de):	Libraries
+Group(es):	Bibliotecas
 Group(fr):	Librairies
 Group(pl):	Biblioteki
 Source0:	http://download.projectmayo.com/dnload/divx4linux/xmps/%{name}-%{version}.tar.gz
@@ -13,12 +14,12 @@ URL:		http://www.projectmayo.com/linux/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-OpenDivX is a implementation of MPEG-4 Video tools as specified in 
+OpenDivX is a implementation of MPEG-4 Video tools as specified in
 ISO/IEC 14496-2 standard.
 
 %description -l pl
-OpenDivX jest implementacj± MPEG-4 okre¶lonego w miêdzynarodowej normie
-ISO/IEC 14496-2.
+OpenDivX jest implementacj± MPEG-4 okre¶lonego w miêdzynarodowej
+normie ISO/IEC 14496-2.
 
 %package devel
 Summary:	Header files and development documentation for libdivxdecore
