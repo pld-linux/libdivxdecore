@@ -5,8 +5,8 @@ Version:	0.4.7
 Release:	4
 License:	DivX Open License
 Group:		Libraries
-Source0:	http://download.projectmayo.com/dnload/divx4linux/xmps/%{name}-%{version}.tar.gz
-URL:		http://www.projectmayo.com/linux/
+Source0:	http://download2.projectmayo.com/dnload/divx4linux/xmps/%{name}-%{version}.tar.gz
+URL:		http://www.projectmayo.com/projects/detail.php?projectId=4
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
