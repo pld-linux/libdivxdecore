@@ -1,4 +1,5 @@
 Summary:	OpenDivX - MPEG-4 implementation
+Summary(pl):	OpenDivX - implementacja dekodera MPEG-4
 Name:		libdivxdecore
 Version:	0.4.7
 Release:	1
