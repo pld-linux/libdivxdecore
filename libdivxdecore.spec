@@ -29,7 +29,7 @@ Requires:	%{name} = %{version}
 %description devel
 Header files and development documentation for libdivxdecore.
 
-%description -l pl devel
+%description devel -l pl
 Pliki nag³ówkowe i dokumentacja do libdivxdecore.
 
 %package static
@@ -41,7 +41,7 @@ Requires:	%{name}-devel = %{version}
 %description static
 libdivxdecore static library.
 
-%description -l pl static
+%description static -l pl
 Biblioteka statyczna libdivxdecore.
 
 %prep
