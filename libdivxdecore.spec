@@ -55,6 +55,10 @@ Biblioteka statyczna libdivxdecore.
 %setup -q
 
 %build
+libtoolize --copy --force
+aclocal
+automake
+autoconf
 %configure
 
 %{__make}
