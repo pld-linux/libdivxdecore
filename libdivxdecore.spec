@@ -2,7 +2,7 @@ Summary:	OpenDivX - MPEG-4 implementation
 Summary(pl):	OpenDivX - implementacja dekodera MPEG-4
 Name:		libdivxdecore
 Version:	0.4.7
-Release:	3
+Release:	4
 License:	DivX Open License
 Group:		Libraries
 Group(de):	Libraries
@@ -58,10 +58,11 @@ Biblioteka statyczna libdivxdecore.
 %setup -q
 
 %build
+rm -f missing
 libtoolize --copy --force
 aclocal
-automake
 autoconf
+automake -a -c
 %configure
 
 %{__make}
