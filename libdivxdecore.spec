@@ -5,13 +5,6 @@ Version:	0.4.7
 Release:	4
 License:	DivX Open License
 Group:		Libraries
-Group(de):	Libraries
-Group(es):	Bibliotecas
-Group(fr):	Librairies
-Group(pl):	Biblioteki
-Group(pt_BR):	Bibliotecas
-Group(ru):	Библиотеки
-Group(uk):	Б╕бл╕отеки
 Source0:	http://download.projectmayo.com/dnload/divx4linux/xmps/%{name}-%{version}.tar.gz
 URL:		http://www.projectmayo.com/linux/
 BuildRequires:	autoconf
@@ -31,13 +24,6 @@ normie ISO/IEC 14496-2.
 Summary:	Header files and development documentation for libdivxdecore
 Summary(pl):	Pliki nagЁСwkowe i dokumentacja do libdivxdecore
 Group:		Development/Libraries
-Group(de):	Entwicklung/Libraries
-Group(es):	Desarrollo/Bibliotecas
-Group(fr):	Development/Librairies
-Group(pl):	Programowanie/Biblioteki
-Group(pt_BR):	Desenvolvimento/Bibliotecas
-Group(ru):	Разработка/Библиотеки
-Group(uk):	Розробка/Б╕бл╕отеки
 Requires:	%{name} = %{version}
 
 %description devel
@@ -50,13 +36,6 @@ Pliki nagЁСwkowe i dokumentacja do libdivxdecore.
 Summary:	libdivxdecore static library
 Summary(pl):	Statyczna biblioteka libdivxdecore
 Group:		Development/Libraries
-Group(de):	Entwicklung/Libraries
-Group(es):	Desarrollo/Bibliotecas
-Group(fr):	Development/Librairies
-Group(pl):	Programowanie/Biblioteki
-Group(pt_BR):	Desenvolvimento/Bibliotecas
-Group(ru):	Разработка/Библиотеки
-Group(uk):	Розробка/Б╕бл╕отеки
 Requires:	%{name}-devel = %{version}
 
 %description static
