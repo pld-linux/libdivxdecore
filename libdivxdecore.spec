@@ -2,7 +2,7 @@ Summary:	OpenDivX - MPEG-4 implementation
 Summary(pl):	OpenDivX - implementacja dekodera MPEG-4
 Name:		libdivxdecore
 Version:	0.4.7
-Release:	4
+Release:	5
 License:	DivX Open License
 Group:		Libraries
 Source0:	http://download2.projectmayo.com/dnload/divx4linux/xmps/%{name}-%{version}.tar.gz
@@ -63,8 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README COPYING
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -73,12 +71,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING.gz
+%doc COPYING README
 %attr(755,root,root) %{_libdir}/*.so
 
 %files devel
 %defattr(644,root,root,755)
-%doc README.gz
 %attr(755,root,root) %{_libdir}/*.la
 %{_includedir}/divx
 
