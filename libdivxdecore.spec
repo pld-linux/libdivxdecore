@@ -11,6 +11,9 @@ Group(fr):	Librairies
 Group(pl):	Biblioteki
 Source0:	http://download.projectmayo.com/dnload/divx4linux/xmps/%{name}-%{version}.tar.gz
 URL:		http://www.projectmayo.com/linux/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
