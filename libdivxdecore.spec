@@ -1,4 +1,6 @@
+# Conditional build:
 %bcond_without	static_libs	# don't build static library
+#
 Summary:	OpenDivX - MPEG-4 implementation
 Summary(pl):	OpenDivX - implementacja dekodera MPEG-4
 Name:		libdivxdecore
