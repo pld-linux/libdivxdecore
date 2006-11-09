@@ -28,7 +28,7 @@ normie ISO/IEC 14496-2.
 Summary:	Header files and development documentation for libdivxdecore
 Summary(pl):	Pliki nag³ówkowe i dokumentacja do libdivxdecore
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files and development documentation for libdivxdecore.
@@ -40,7 +40,7 @@ Pliki nag³ówkowe i dokumentacja do libdivxdecore.
 Summary:	libdivxdecore static library
 Summary(pl):	Statyczna biblioteka libdivxdecore
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 libdivxdecore static library.
