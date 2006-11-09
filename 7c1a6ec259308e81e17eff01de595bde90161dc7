@@ -1,0 +1,3 @@
+- license is not GPL! it's "DivX Open License" (not really OpenSource);
+  added COPYING file (containing license) to %doc
+- release 3
