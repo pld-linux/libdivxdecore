@@ -2,7 +2,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	OpenDivX - MPEG-4 implementation
-Summary(pl.UTF-8):   OpenDivX - implementacja dekodera MPEG-4
+Summary(pl.UTF-8):	OpenDivX - implementacja dekodera MPEG-4
 Name:		libdivxdecore
 Version:	0.4.7
 Release:	6
@@ -26,7 +26,7 @@ normie ISO/IEC 14496-2.
 
 %package devel
 Summary:	Header files and development documentation for libdivxdecore
-Summary(pl.UTF-8):   Pliki nagłówkowe i dokumentacja do libdivxdecore
+Summary(pl.UTF-8):	Pliki nagłówkowe i dokumentacja do libdivxdecore
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -38,7 +38,7 @@ Pliki nagłówkowe i dokumentacja do libdivxdecore.
 
 %package static
 Summary:	libdivxdecore static library
-Summary(pl.UTF-8):   Statyczna biblioteka libdivxdecore
+Summary(pl.UTF-8):	Statyczna biblioteka libdivxdecore
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
